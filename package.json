@@ -1,0 +1,30 @@
+{
+  "name": "secure-default-vpc-security-group-cdk",
+  "version": "1.0.0",
+  "description": "Secure a default security group created for a VPC using CDK",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc && cd provider && tsc && cp -r node_modules ../lib/provider && rm -rf ../lib/provider/node_modules/aws-sdk",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isotoma/secure-default-vpc-security-group-cdk.git"
+  },
+  "author": "Isotoma Limited",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/isotoma/secure-default-vpc-security-group-cdk/issues"
+  },
+  "homepage": "https://github.com/isotoma/secure-default-vpc-security-group-cdk#readme",
+  "devDependencies": {
+    "@aws-cdk/aws-ec2": "^1.43.0",
+    "@aws-cdk/aws-lambda": "^1.43.0",
+    "@aws-cdk/core": "^1.43.0",
+    "@aws-cdk/custom-resources": "^1.43.0",
+    "@types/aws-lambda": "^8.10.53",
+    "@types/node": "^14.0.10",
+    "jest": "^26.0.1",
+    "typescript": "^3.9.3"
+  }
+}
