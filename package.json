@@ -1,6 +1,6 @@
 {
   "name": "secure-default-vpc-security-group-cdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Secure a default security group created for a VPC using CDK",
   "main": "lib/index.js",
   "scripts": {
