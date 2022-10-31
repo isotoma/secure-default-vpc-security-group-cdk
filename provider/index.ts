@@ -30,17 +30,21 @@ export const onCreate = async (event: CloudFormationCustomResourceCreateEvent): 
         console.error(err);
     }
     try {
-        await ec2.revokeSecurityGroupEgress({
-            GroupId: securityGroupId,
-            IpPermissions: [
-                {
-                    IpProtocol: '-1',
-                    IpRanges: [{
-                        CidrIp: '0.0.0.0/0'
-                    }]
-                }
-            ]
-        }).promise()
+        await ec2
+            .revokeSecurityGroupEgress({
+                GroupId: securityGroupId,
+                IpPermissions: [
+                    {
+                        IpProtocol: '-1',
+                        IpRanges: [
+                            {
+                                CidrIp: '0.0.0.0/0',
+                            },
+                        ],
+                    },
+                ],
+            })
+            .promise();
     } catch (err) {
         console.error(err);
     }

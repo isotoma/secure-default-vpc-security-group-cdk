@@ -46,15 +46,15 @@ export class SecureDefaultVPCSecurityGroup extends cdk.Construct {
     constructor(scope: cdk.Construct, id: string, props: SecureDefaultVPCSecurityGroupProps) {
         super(scope, id);
         if (!props.vpc) {
-            throw new Error("No vpc specified");
+            throw new Error('No vpc specified');
         }
         this.vpc = props.vpc;
         this.resource = new cfn.CustomResource(this, 'Resource', {
             provider: SecureDefaultVpcSecurityGroupProvider.getOrCreate(this),
             resourceType: 'Custom::SecureDefaultVpcSecurityGroup',
             properties: {
-                SecurityGroupId: this.vpc.vpcDefaultSecurityGroup
-            }
+                SecurityGroupId: this.vpc.vpcDefaultSecurityGroup,
+            },
         });
     }
 }
