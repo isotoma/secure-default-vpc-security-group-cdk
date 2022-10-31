@@ -1,5 +1,12 @@
 ### Changelog
 
+#### [1.2.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.1.0...1.2.0)
+
+> 31 October 2022
+
+- Update provider package-lock.json version [`#22`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/22)
+- Support CDK v2 [`#21`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/21)
+
 #### [1.1.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.0.2...1.1.0)
 
 > 31 October 2022
