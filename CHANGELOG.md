@@ -1,5 +1,11 @@
 ### Changelog
 
+#### [1.1.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.0.2...1.1.0)
+
+> 31 October 2022
+
+- Use node 14 [`#20`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/20)
+
 #### [1.0.2](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.0.1...1.0.2)
 
 > 31 October 2022
