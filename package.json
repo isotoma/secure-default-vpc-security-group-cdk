@@ -2,7 +2,6 @@
   "name": "secure-default-vpc-security-group-cdk",
   "version": "1.2.0",
   "description": "Secure a default security group created for a VPC using CDK",
-  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "tsc": "tsc",
