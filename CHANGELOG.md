@@ -1,5 +1,11 @@
 ### Changelog
 
+#### [1.2.1](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.2.0...1.2.1)
+
+> 1 November 2022
+
+- Remove main from package.json [`#24`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/24)
+
 #### [1.2.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.1.0...1.2.0)
 
 > 31 October 2022
