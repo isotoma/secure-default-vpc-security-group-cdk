@@ -1,5 +1,11 @@
 ### Changelog
 
+### [2.0.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.2.1...2.0.0)
+
+> 1 June 2023
+
+- Change index exports to cdkv2 [`#29`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/29)
+
 #### [1.2.1](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.2.0...1.2.1)
 
 > 1 November 2022
