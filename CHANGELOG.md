@@ -1,5 +1,11 @@
 ### Changelog
 
+### [3.0.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/2.0.0...3.0.0)
+
+> 31 August 2023
+
+- Remove CDK v1 support [`#30`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/30)
+
 ### [2.0.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/1.2.1...2.0.0)
 
 > 1 June 2023
