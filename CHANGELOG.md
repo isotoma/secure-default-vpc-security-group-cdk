@@ -1,5 +1,11 @@
 ### Changelog
 
+#### [3.1.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/3.0.0...3.1.0)
+
+> 31 August 2023
+
+- Use Node 16 for the Lambda runtime [`#31`](https://github.com/isotoma/secure-default-vpc-security-group-cdk/pull/31)
+
 ### [3.0.0](https://github.com/isotoma/secure-default-vpc-security-group-cdk/compare/2.0.0...3.0.0)
 
 > 31 August 2023
