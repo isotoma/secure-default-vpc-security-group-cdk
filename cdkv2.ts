@@ -21,7 +21,7 @@ export class SecureDefaultVpcSecurityGroupProvider extends Construct {
         this.provider = new customResource.Provider(this, 'secure-default-vpc-security-group', {
             onEventHandler: new lambda.Function(this, 'secure-default-vpc-security-group-event', {
                 code: lambda.Code.fromAsset(path.join(__dirname, 'provider')),
-                runtime: lambda.Runtime.NODEJS_14_X,
+                runtime: lambda.Runtime.NODEJS_16_X,
                 handler: 'index.onEvent',
                 timeout: cdk.Duration.minutes(5),
                 initialPolicy: [
